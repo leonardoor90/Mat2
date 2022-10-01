@@ -1,0 +1,43 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+/*
+
+@import '~@angular/material/prebuilt-themes/pink-bluegrey.css';
+@import '~@angular/material/prebuilt-themes/purple-green.css';
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+*/
+
+body {
+   margin: 0;
+}
+
+.mat-row, .mat-header-row {
+   height: auto !important;
+}
+
+.mat-cell, .mat-header-cell {
+   padding: 6px !important;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container > * {
+  width: 100%;
+}
+
+.center-buttons {
+  text-align: center;
+}
+
+.center-buttons .mat-primary {
+  margin-right: 10px;
+}
+
+.center-buttons .mat-warn {
+  margin-left: 10px;
+}
